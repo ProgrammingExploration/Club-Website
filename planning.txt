@@ -1,0 +1,1857 @@
+Color Scheme {
+    #222831
+    #393e46
+    #00adb5
+    #eeeeee
+    #e5e5e5
+}
+
+Header {
+    Title: {
+        TextColor: #eeeeee
+        Text: "Programming Exploration"
+    },
+    Style: {
+        BackgroundColor: #393e46
+    }
+    Navigation: {
+        Position: Right,
+        Style: {
+            3 Bars
+        },
+        Drop Down: {
+            Floating,
+            Courses (+) {
+                Python
+                Web Development
+                App Development
+                Game Development
+            },
+            Tools,
+            Sign Up,
+            Styling: {
+                BackgroundColor: #393e46
+                TextColor: #eeeeee
+                Hover: {
+                    TextColor: #222831
+                    TextBackgroundColor: #00adb5
+                }
+            }
+        }
+    }
+}
+
+Main Grid {
+    Content {
+        About Club {
+            BackgroundColor: #00adb5
+            Text: "This club, you may have noticed if you looked through the courses, does cover tons of concepts and information. For example, if you look at the Web Development Course you learn HTML, CSS, Vanilla JavaScript, React JS, Node JS Express NEDB, React Native, TypeScript, and a bit about Angular. And, that is a lot of concepts to learn for one year, but you aren’t going to come out of this club having mastery knowledge on all of these topics, but you will have enough knowledge to make any app, website, game, or automation you want just by a little research. And you might be thinking that isn’t that possible even if I didn’t participate in the club, and my answer would be known. I believe in this theory that I call Barrier to Entry, anything you are trying to learn, you must have the basic knowledge and almost an intermediate level understanding, before you go on your own if you want to learn in the most efficient way possible. And I follow these rules as well. I go through and I find tutorials for all these different concepts while still being a beginner, and after finishing the course, I try building a project with this skill that I just learned, to fine tune my skills and also just to test myself. And, this club takes a perfect tour of all of these topics because in the beginning you learn and cross that barrier to entry, and once you do that, in the end of the club, you get sometime to research and create your own project, and you can enter the project into a competition. Hopefully, by crossing the barrier of entry for this club, you chose to participate in the Programming Exploration."
+        },
+        SlideShow {
+            BackgroundColor: #eeeeee
+            SlideShow of all images of the tools you will learn how to use
+        },
+        Tools {
+            BackgroundColor: #393e46
+            Text: "VS Code or Visual Studio Code is a powerful code editor, and the best thing about this tool is that it is completely free. This is a code editor/IDE which is amazing, and several people use it, including me, while building huge projects, building startups, and even employees in google use this product. The reason that so many programmers and developers use this code editor is because you can completely customize it to your needs. Starting from changing the theme color of the editor, to creating shortcuts that paste in boiler plate code for you, VS Code is the most customizable editor out there. We will use this editor in ⅘ of the code editors that we use, and the exception is App Development because there is an even more powerful tool supporting just app development, Android Studio."
+        },
+        SignUp {
+            BackgroundColor: #222831
+            Content: {
+                Text: "To Learn and Explore the depths of Programming and Software Development Click Below"
+                LinK: "/form"
+            }
+        }
+    }
+}
+
+Contact Grid {
+    Content {
+        About Me {
+            Header: "About Me" (H2) {
+                Styles: Center, Padding: 10px
+            },
+            Text: {
+                Hi, I am Om Shivam Panda and I am in 8th Grade. I made this club hoping to give you enough knowledge to actually go off on your own and start developing anything you really want. I was in 4th grade when I started programming and I really did enjoy it and for 4 years I have been exploring and researching new technologies and languages to learn. I have come across almost all software tools and learnt app development, game development, and web development along the way. Over this time I have learnt several languages, skills, and used several tools. I have built software for myself most of the time but I have built a website for a private tutoring business called Lawless Language Arts. 
+            },
+            Style: {
+                BackgroundColor: #393e46
+            }
+        },
+        Contact Info {
+            Styles: {
+                Display: Grid,
+                BackgroundColor: #222831
+                [
+                    Grid-Box-1 --> Grid-Box-2 --> Grid-Box-3
+                ]
+            }, 
+            Grid-Box-1 {
+                Title: "Github",
+                Link: "https://github.com/littlepotato123"
+            },
+            Grid-Box-2 {
+                Title: "Personal Website",
+                Link: "https://sopanda0910.pythonanywhere.com"
+            },
+            Grid-Box-3 {
+                Title: "Email",
+                Text: "sopanda0910@gmail.com", "ompanda0910@gmail.com", "sopanda25@troyschools.org"
+            }
+        },
+        Style: {
+            BackgroundColor: #eeeeee
+            Grid: {
+                [
+                    About Me
+                    Contact Info
+                ]
+            }
+        }
+    }
+}
+
+Tools {
+    VS Code: {
+        VS Code or Visual Studio Code is a powerful code editor, and the best thing about this tool is that it is completely free. This is a code editor/IDE which is amazing, and several people use it, including me, while building huge projects, building startups, and even employees in google use this product. The reason that so many programmers and developers use this code editor is because you can completely customize it to your needs. Starting from changing the theme color of the editor, to creating shortcuts that paste in boiler plate code for you, VS Code is the most customizable editor out there. We will use this editor in ⅘ of the code editors that we use, and the exception is App Development because there is an even more powerful tool supporting just app development, Android Studio. 
+    },
+    Unity: {
+        Unity is a game developing software that although is really easy compared to building a game from scratch, but still does have programming. The advantage in this type of software is that you have control over the whole game, but it results in a much better product. Unity Engine is free and used for making several high-scaled games and uses C# to program all movement, and all event handling. 
+    }
+    App Development: {
+        Android Studio: {
+            Android studio is an app developing interface that is used for Android development. You can emulate several different android devices and see how your app looks on all of these different devices, you can handle all layout and designing through a touch interface and modify through XML. You can commit changes to a version control software, and you can handle all backend programming in the same interface using Kotlin. Also, Kotlin is a much more developed form of Java and can be used with Android Studio for several purposes
+        },
+        Flutter: {
+            Flutter is an app developing module that uses the dart programming language to make apps for both Android and Apple. The amazing part of flutter is that you can make an app for both android and apple with the same code and that is where the flutter compiler comes in handy. The flutter compiler will take the dart and flutter code and make an android studio app and a XCODE application. XCODE is a developing software just like Android Studio but to build apps for IOS. Unfortunately you can only use it if you have a MacOS. Also, Dart is very similar to java and kotlin, so it is very easy to migrate from android studio to flutter.
+        }
+    },
+    Python: {
+        Python: {
+            Python is an extremely powerful and dynamic language, and it is eventually going to be the most powerful language and tool used in any area of developing. It is already leading in Machine Learning and Neural Networks, App Development for PC Applications. It has several tools for web development and you can make frontend and backend software both with Python using Flask and Django. 
+        },
+        Python Django: {
+            Django is a framework/module that uses the python programming language to develop full stack websites with databases that can store images, text, objects, and can build basic things like a blog, all the way up to a huge platform such as a replica of instagram or facebook. 
+        },
+        Python Tkinter: {
+            Tkinter is a framework/module that uses python to build desktop applications that you can run. The application complexity can range from a basic calculator all the way up to a replica of youtube or google docs with database storage and the amazing part of Tkinter is that in a website that needs a database and trafficking connection, you need to parts, a frontend that displays information, and a backend that trafficks, but in TKinter, you can do both in one file. 
+        },
+        Python Flask: {
+            Flask is a framework/module that uses python to build REST APIs that can store objects in a database, return values through HTTP Requests and handle almost all trafficking you could ever need in a full stack website that needs to store information, load information from backend and similar projects. You can build something as big as a youtube replica, of course without the videos, but the trafficking part. 
+        }
+    },
+    Web Development: {
+        HTML, CSS, JS {
+            HTML, CSS, and JavaScript can be used to build basic websites that have lots of styling, but not much functionality, and maybe have a few slide animations and buttons, but will not have any major functionality like a database or even a few new components. But, these three languages can create and make extremely basic but visually appealing websites. Most of the time, these languages are used to make a static website to display some information or for advertising.
+        }
+        React JS: {
+            React is a very important and popular framework that is not used to deal with trafficking but used as an alternative to HTML, CSS, and JS. It uses JavaScript and JSX to make websites that can have much more functionality than a regular HTML, CSS, and JavaScript website, but it cannot have enough functionality on its own to actually build a instagram or facebook replica. But, if you connect it with a Backend service then it is extremely powerful and can be used to build a huge site like google or internet explorer. The main speciality of React is making your own components. You can make components, so instead of having <div>, you can make your own <panda>, which would not work in regular HTML, but will work with React.
+        },
+        Node JS: {
+            Node JS is a very basic package manager, but paired with Express JS, you can completely monitor and traffic huge websites with over 1000 routes. You can also create dynamic routes and dynamic websites with databases and internet fetching and other components. You can connect this to a frontend service like React JS and make a full blown full stack website. 
+        },
+        Typescript: {
+            TypeScript as the name may suggest is very similar to JavaScript but you can declare types. It may seem extremely basic, not complex at all, and seem completely useless, but it can help while working with bigger frameworks like React JS. TypeScript, although may only have one functionality, when paired with React, can lead to much quicker and easier programming because you cannot make the error of thinking an integer is a string. 
+        },
+        React Native: {
+            React Native is a powerful app developing tool and although it may seem odd to put this app development tool in a web development course, it ties into several concepts like React JS, JavaScript, JSX, and it is essentially an extremely powerful website that can only run on a mobile device. React Native can build apps just like flutter, because it will create an app for android and ios at the same time in Kotlin and Objective C, while you are actually writing the code in JavaScript and React. 
+        },
+        Angular: {
+            Angular is another frontend framework just like React JS, but it uses TypeScript. It is much harder to learn, but once you learn it, you can do several things with it, and it is used in several scenarios where you need to make a website with not only a frontend but backend as well. It is so helpful in scenarios like these because it has a built in system to connect to a backend. 
+        },
+        Vue: {
+            Vue is almost exactly like React, you can choose to use JavaScript or TypeScript, you can create components, it is hard to connect to a backend, but it is a much easier tool to learn. But, since it is so easy to learn, it is much less powerful and you can do much less things with Vue JS, but if you need to make a very basic full stack website, Vue is the best option.
+        }
+    }
+}
+
+SignUp {
+    Header: {
+        <Header/>
+    },
+    Iframe: {
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdFTNeoI3a0XKDRWrUx5enIyyonzaT5gJudfLpZQFJrkAPKlw/viewform?embedded=true" width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    }
+}
+
+Courses {
+    Each Course will have a short description about the course and then a few projects you are going to build in the project --> Link to It's own page with much more detail
+    Python: {
+        In the python course you will learn of course the basics of python, from the base syntax and printing out to the console, all the way to Object Oriented Programming, and Key Methods. After you are comfortable and familiar with python, we will go and look into a module call tkinter in python which is used to develop desktop applications with python. You will learn the basics of Tkinter, all the way to creating an application that uses a database, querying a database, adding and deleting from a database and much more. You will learn how to build an image viewer and a slideshow of an image viewer and how to make any desktop application with python tkinter. After that you will learn how to make simple websites and trafficked websites through a module named Flask where you will learn how to also make REST APIs that are powerful enough to replica youtube’s api. Once you finish learning basic websites with python we will dive into the last section of the python course which will be about how to use Django which is a framework that allows you to build full fledged websites with blogs, storing images, projects, image links and much more. You will learn and make your own personal website and you will also learn how to make a todo list app with a sign up and login system and storing the todos in a database and all the skills needed to make that including a user authentication system.
+    },
+    Web Development: {
+        In the web development course, you will start learning basic HTML, CSS, and Vanilla JavaScript. You will get to learn how to make responsive, basic websites with headers, footers, CSS grids, and flexbox. These are the main concepts you must learn for HTML and CSS. This section will not start with JavaScript, but learn HTML and CSS because that is what you will be using in almost every single section of this course. After done with basic websites, we will do a little course of JavaScript learning all the basic syntax and what you need to know to actually start using frameworks like React JS or Node JS. In this course you will go from basic variable declaration all the way to module style programming. Then you will get into React JS and learn JSX and how React works, how to use it efficiently, and how to take advantage of the perks that it provides. Then you will learn how to use Node JS and express which will allow you to manage and traffic websites and it will teach you how to make a REST API. After this you will learn how to connect React JS and Node JS. After you are familiar with React and JavaScript, you will learn the fundamentals of TypeScript and how to use it with React just like how you would use it in Regular JavaScript React. After this you will learn how to use React Native and make IOS and Android Apps with JavaScript and React Native. Then you will learn the other 2 popular frontend frameworks, Angular JS and Vue JS.
+    },
+    App Development: {
+        In the app development course you will learn how to make several apps in android studio specifically made for android devices. You will learn several skills along the way including how to use Kotlin, how to render images through a static database, and how to even handle the whole app through one code base. You will also learn how to use Android Studio XML and how to build responsive applications on android studio. You will also learn how to make a full e-commerce app through android studio with images, list views, responsiveness, static databases, and click handling. After finishing and feeling comfortable with Android Studio and Kotlin, we will move to Flutter and Dart where we will learn how to use flutter, what is flutter, what is dart, how to build and manage apps with Flutter and Dart.
+    },
+    Game Development: {
+        In the game development course you will learn how to use Unity and learn the fundamentals of C# with unity development. The first section of the course will be learning the fundamentals of Unity and C#, and you will learn how to do that with learning how to make a platformer. In this section you will learn about handling key events, keybindings, forces, game objects, menus, click events, using mouse positions, and several others such as game object detection. You will also learn how to make some unnecessary but fun details like how to make visual effects such as particle effects, using images and sprites, minimaps, new cameras, camera shake, and using the package manager. You will also learn visual effects such as glowing, music, and sound effects. After this, we will take a vote on what type of games you guys want to learn how to make and you can put your selection in the vote. Whichever topic wins, we will spend the rest of the time learning how to make a game with that theme or topic. 
+    }
+}
+
+Python {
+    Beginner Course {
+        Commenting
+        Variables
+            Assigning Variables
+            Integers
+            Floats
+            Reassigning
+            Print function
+            Type function
+            Strings
+                Assigning strings
+                Cool things with Strings
+                String formatting
+                    Dynamic String Variables
+                    F Strings
+                    Formatting strings both ways
+        User Input
+            Raw User Input
+            Asking Questions
+            Storing Inputs
+            Putting it all together
+        Sets
+            Lists
+            Tuples
+            Sets
+            Differences
+            Properties
+        Advanced Set Operations
+            Difference Sets
+            Union
+            Intersection
+        Boolean Logic
+            What are booleans
+            How to declare booleans
+            Other ways to declare 
+            Operators
+        If Statements
+            Simple Example
+            Syntax
+            Else
+            Elif
+            Proof Checking
+        In Keyword
+            Syntax
+            Application
+        Magic Number Guesser
+            Simple 
+            Using “In” and Tuples
+            Adding Features
+            Simplifying code
+            While loops
+                Break statements
+        For Loops
+            Syntax
+            Purpose
+            What it solves
+            Sum functions
+            Len functions
+        List Comprehensions
+            For loops with lists
+            Short forms
+        Dictionaries
+            Syntax
+            List of dictionaries
+            Usage of list of dictionaries
+            For loops with dictionaries
+        Destructuring Variables
+        Functions
+            Base Syntax
+            Calling Functions
+            Functions with parameters
+            Default Parameters
+            Errors with Functions
+            Variable Errors in functions
+            Returning functions
+        Lambda expressions
+            What is it and what is it used for
+            Base Syntax
+            Variable functions with Lambda
+            Calling lambda functions
+        Dictionary Comprehension
+        Unpacking Arguments
+            Syntax
+            How this helps (Runtime)
+            Using lists
+            Using dictionaries
+        Unpacking keyword arguments
+            *args
+            **kwargs
+            Both
+        Object Oriented Programming
+            Creating an object
+            Object properties
+            Declaring the object
+            Object actions
+            Calling object actions
+            Assigning variables through 
+        Magic Methods
+            __str__(self) method
+                Purpose
+            __repr__(self) method
+                Purpose
+                How to use __repr__
+        @classmethod and @staticmethod
+            Instance methods
+            Class methods
+            Static methods
+            Creating objects inside of an Object Method
+        Class Inheritance
+            Base Model
+            Inheriting from Base Model
+                Super() function
+        Class Compositions
+            Why Class Inheritance doesn’t work in most scenarios
+            Syntax
+            Why it is used more than class inheritance
+        First Class Functions
+            Syntax
+            Use
+            Example
+    }
+    Python Django Course {
+        What is DJANGO
+        What is it used for
+        Settings.txt
+        First Project Intro (Password Generator)
+            Running Local Server
+            What is 127.0.0.1 or localhost
+            Project Structure (Additional Files)
+            What is db.sqlite3
+            What is manage.py
+            What is pycache
+            What is __init__.py
+                OOP correlation
+            Asgi.py and Wsgi.py
+            Settings.py
+            URLS.py
+        View Page Source
+        First Django App
+            Base Routing
+            Our First Routes
+                Hello World
+                Eggs
+                Returning HTML
+            Templates
+                Creating Templates
+                Using our template with code
+                Passing Information
+            Forms
+                Selectors
+                Options
+                Values
+                Form submission
+                {% url ‘password’ %}
+            Generating Random Passwords
+            Using Form Data
+                What is the request parameter
+                Handling Requests
+                Adding Home Button
+            Challenge: Make your own about page for the website
+            Bootstrap
+                What is bootstrap
+                How to use bootstrap in our website
+                Applying Bootstrap
+            Finished Website!
+        Portfolio Website
+            Intro
+                Project Setup
+                Database Introduction
+                Models.py
+                Working with models
+                    Creating a model
+                    Adding Input Fields
+                    Admin
+                    Admin.py
+                    Settings.py
+                Displaying Home Page
+                Displaying Information on Home Page
+                    Sending our projects
+                    Displaying title and description
+                    Displaying image
+                    Displaying Link
+                Setting up basic blog
+                    Include()
+                Coding Blog
+                    Blog Object
+                    Configuring Admin
+                    Displaying Blog Posts
+                Static Files
+                    Setting up Media 
+                    Importing Image
+                    Rendering Image
+                    Displaying Files
+                    Resume
+                Blog Detail Page
+                    Getting Custom URL
+                    Displaying with custom URL
+                Polishing
+                    Description …
+                    Date System
+                    Fixing Admin
+                Extending Base Templates
+                    Base.html
+                    {% block %}
+                Bootstrap
+        Todo List
+            Project Setup,
+            Django.contrib.auth
+            User Authentication Process
+            Base Code
+            Django Input
+                Django Contrib Authentication
+                Passing forms through
+                CSFR
+            Posting with forms
+                More Secure
+                Checking Password Repetition
+                Registering a user
+                Creating Superuser
+            Error Handling
+                Mismatching Passwords
+                Checking if username is taken
+                Redirecting
+            Displaying Login
+                Structure
+            Logout
+                Why it needs to be POST
+            Home Page
+            Login Required Function
+            Forms
+            Forms.py
+                Inheriting from script
+            Users accessing database
+            Completed
+            Delete Todos
+            Saving and Bootstrap
+            Done with DJANGO!
+    }
+    Python Flask Course {
+        Setup for Flask
+        Routes
+        JSON
+        Methods
+            Get
+            Put
+            Post
+            Patch
+            Delete
+        Local Storage
+            Array Storage
+        Storage and Databases
+        Displaying with HTML
+        Stores and Prices (Project)
+        Youtube API Model (Project)
+            Setup
+            Routes Setup
+            Class Models
+            Inheritance
+                Db.model
+            Storing to a database
+    }
+    Python Tkinter Course {
+        Hello World
+            Importing
+            Root
+                Tk()
+                Root.Title
+            Label Widget
+                Root
+                Text
+                Packing
+            Running Our Program
+        Grid Positioning
+            .grid()
+                Rows
+                Columns
+            Absolute Positioning
+                Doesn’t matter what the size of the window is
+        Buttons
+            Button Component
+                Root
+                Text
+                Padding
+                Command
+                No ()   
+        Coloring
+            Fg: Text Color
+            Bg: Background Color
+        Input Fields
+            Entry Widget
+                Root
+                Coloring
+                Width
+                Borderwidth
+            Getting the Information from input
+                E.get()
+                Printing
+                Outputting on screen
+                    Label
+                        Text = e.get()
+            Inserting
+                Placeholder values
+        Building Calculator
+            Input Field
+                Grid
+                    Columns
+                    Rows
+                    Column Span
+                Padding
+                    Padx
+                    Pady
+            Buttons
+                All Buttons
+                Grid View
+                    Rows
+                    Row Span
+                onClick
+                    Lambda
+                    Passing Numbers into the function
+                    Making Compatible to several digit numbers
+                        Str()
+                        String Concatenation
+                Clear
+                e.delete(0, END)
+            Add
+                Global Variables
+                Storing First Number
+                Deleting Input Field
+            Equal
+                e.insert(0, answer)
+            Making Several Operations
+                Creating Buttons
+                Positioning
+                Global Math Variable
+                If and elif
+        Using Icons, Images, Exit Buttons
+            Convert image to ico file
+                https://image.online-convert.com/convert-to-ico
+            root.iconbitmap(‘Full Path’)
+            Quit Button
+                Root.quit
+                OOP
+        Images
+            PILLOW
+                Package
+            Define Image
+                Image.TK
+            Add Image to Label
+                Image property of widget
+            Pack Label
+        Image Viewer Project
+            Get All Images
+            Put All Images in List
+            Buttons
+                Grid
+            Label to Display Image
+            Forward
+                Make Image Disappear
+                Display Next Number
+            Adding Status Bar
+                String Concatenation
+                Sticky
+                Anchor
+                Border
+                Relief
+        Frames
+            LabelFrame
+            Adding Widgets to LabelFrame
+                Pack()
+        Radio Buttons
+            Text
+            Variable
+            Value
+            Tkinter Variables
+                IntVar()
+                StringVar()
+            onChange
+                Clicked Value
+        Radio Buttons Project
+            Creating a array of tuples for the button values
+            onChange
+            Final Button
+        Message Boxes
+            Import messagebox
+            Button to Popup
+                Showinfo
+                Show Warning
+                Showerror
+                Askquestion
+                Askokcancel
+                Askyesno
+                Checking Responses
+                    Ok or Yes  = 1
+                    Cancel or No = 0
+                    Ask Question
+                        Returns yes or no
+                    Show Warning, Error, Info	
+                        Returns ok
+        Create New Windows
+            Toplevel()
+            Adding widgets to new level
+            Opening new window based on button click
+                Create instance on toplevel() in the function
+            Closing topLevel()
+        Open File Dialog Box
+            Import FileDialog
+            Filedialog.askopenfilename
+                Initialdir
+                Title
+                Filetype
+                    Tuples
+                        Titles
+                        File Type
+            Image Opener
+                Getting File Directory
+                Image Opening
+                Label
+                    Image = Image
+        Slider
+            Scale
+                From_
+                To
+                Orient
+            Changing
+                .get()
+            Root.geometry()
+            Changing Size of window based on slider values
+        Checkboxes
+            Checkbutton
+                Variable
+            Return 0 or 1
+        Drop Down Menus
+            Options Menu
+                Variable
+                Options
+            List of Options
+                *options
+            Setting Value
+                Variable.set()
+            Getting value
+                Variable.get()
+        Database Connections
+            Intro to Databases with Python
+                Sqlite3
+            Connecting or creating a database
+            Cursor
+                What is a cursor
+                What is it used for
+            Creating cursor
+            Tables
+                Columns and Rows
+            Initializing the database
+                Comment the table
+            Making App
+                Entry Widgets
+                Submit Buttons
+                Submit Function
+                    Clearing
+                    Connect to database
+                    Create Cursor
+                    Insert to database
+                        Dummy Variables
+                        Dictionary
+                            Names
+                            Entry.get()
+                Querying Database
+                    SELECT *, oid
+                        OID → Unique ID
+                    fetchall()
+                    Printing this
+    }
+}
+
+Web Development {
+    HTML {
+        Headers
+            H1
+            H2
+            H3
+            H4
+            H5
+            H6
+        Text Tags
+            P tags
+            Plain Text
+            Br tags
+        Linking
+            A tags
+            Other HTML files
+            Mailto tags
+            Downloads
+        Images
+            Source
+            Styling
+        Styling
+            Inline CSS
+            Infile CSS
+            New File CSS
+        Buttons
+            Inline JS
+            Using as “A” tag
+            Iframe
+            HTML Files
+            New Tab Iframe
+    }
+    CSS {
+        Structure of CSS
+        Coloring
+            Background-Color
+            Text-Color
+        Positioning
+            Aligning
+            Text Align
+            Item Align
+            Justify
+        Object Positioning
+            Position: Relative
+            Position: Fixed
+            Position: Absolute
+            Advanced Positioning
+        Flexbox
+            FlexBox Direction
+            Axes
+            Align Items
+            Justify Content
+        CSS Grid
+            Grid template
+        Responsiveness
+            @media
+        Making Sticky Nav Bar
+            Responsiveness
+    }
+    Vanilla JS {
+        Variables
+            Const
+            Var
+            Let
+        Computation
+            Addition
+            Subtraction
+            Multiplication
+            Division
+        If statements
+            Operator
+                ==
+                >=
+                >
+                <
+                <=
+                !=
+                (variable)
+            Else if()
+            else()
+        Switch Statement
+            Operator
+            Cases
+            Break
+            Continue
+        For Loop
+        While Loops
+            What do operators return
+            Break
+            Continue
+        Objects
+            Properties
+            JSON
+        Classes
+            Constructor
+            Functions in Classes
+    }
+    React JS {
+        Create-react-app.dev
+        Folder Structure
+            .GitIgnore
+            Package.json
+            Readme.md
+            Yarn.lock
+            Src Folder
+            Public Folder
+                What you can delete
+            Index.html
+            Index.js
+            App.js
+        What can you delete?
+            All Images
+            Favicon Image
+            Logo.svg?
+            Remove everything in css
+            What is robots.txt
+        Setting up Hello World
+            Never touch index.js
+            What can you remove in app.js
+            Add Hello World
+        Creating Hello World Component
+            What is a component
+            Creating Components Folder
+            Hello World Component Code
+                Function Method
+                    Returning
+                Class Method
+                    Render Function
+                    Returning
+            Exporting and Importing
+            Usage
+            Advantage of Components
+            What is JSX
+        Props
+            Creating Prop Component
+            Props?
+            This.props
+            Passing Information through tags
+            Using JSX
+        Creating Dynamic Component
+            Props Children
+            Displaying
+        Differences between HTML and JSX
+            Class Name
+            OnClick
+        JSX Restrictions
+            Must Have Outer Layer
+                Div
+                Header
+                Nav
+                Footer
+        Understanding State
+            What is state
+            Adding Persons
+            Array of objects
+            OnClick
+            Manipulating State
+                No Direct Manipulation
+                Special Methods
+                Set State (Only in class Based)
+            Managing States with Functional Components
+                Transitioning to Functional Components
+                React Hooks
+                useState
+            The problem with useState
+        Counter with Classes and Hooks
+            Creating Component
+                Import UseState
+            Instance of useState
+            Class
+                SetState
+                State Components
+            Creating sample useState
+            Creating Switch
+                useState
+                Boolean Logic in JSX
+        Stateful vs Stateless Components
+            What is stateful
+            What is stateless
+        Passing References with Components
+            Destructuring and Organizing
+            Use Props
+        Two Way Binding
+            Adding Input
+            onChange
+            Passing function
+            Dynamic State Changing
+            Handling Values and Inputs
+        StyleSheets
+            Importing
+            CSS
+        Conditional Rendering
+            JSX Formatting
+            No If statements
+            Switch?
+            Null?
+            The JavaScript Method
+                If statements
+                Setting variables to JSX
+                Rendering JS variables
+        Displaying Lists
+            Persons List
+            Why is what we have bad?
+            Using Map()
+        Lists and States
+            Deleting List Items
+            [...this.state.persons]
+            splice()
+        Lists and Keys
+            What is a key
+            What is react doing in the background
+            Potential Keys
+                Adding ID
+                Index
+            What would happen in a database
+        Styling React Components
+            Basic Styling
+            Importing StyleSheets
+            Dynamically Styling
+                Setting Objects
+                Changing Object Components
+    }
+    NodeJS {
+        What is nodejs
+        What is express
+        What is nodemon
+        Simple Routing
+            Initial imports
+                Require()
+                Why we don’t use ES6 for importing
+            Boilerplate Code
+                Properties of App
+                    GET
+                    POST
+                    PUT
+                    DELETE
+                What is the port used for
+                First Route
+                    Displaying Hello World
+                Running NodeJS
+                    Simple Command
+                    Long Term Command
+                        Package.json
+                Basic Routing
+                    Creating Routes
+                Dynamic URLs
+                    What is a dynamic url
+                    Where is it used
+                    How is it used
+                    Setting it up
+                    Req.params
+                Passing Off
+                    App.use()
+                    express.Router()
+                    Module.exports
+        What is EJS
+            EJS Project
+                Setting up EJS with NodeJS
+                    App.set()
+                Simple Rendering
+                    Setting Up Hello World
+                    Res.render()
+                Dynamic Rendering
+                    Passing information to EJS
+                    Why to use EJS
+                    Computation with EJS
+                        For loops and if statements
+                    Rendering an array
+                        Passing in the array
+                        For loop
+                            For Each
+            Why you won’t use EJS
+        What is a RESTful API
+            What is it help with
+            Why is it so popular
+        What is a database
+            What can we do with a database
+            ID
+            Why a database is important
+        Creating A Geolocation App
+            Fake Database
+            Using Public Folder to render html
+            Using navigator built into html
+            Getting longitude and Latitude
+            Posting with Fetch()
+            Limiting Data
+            Pushing to server
+            Pushing data to fake database
+        Connecting to real database
+            Initializing Database
+            Database.db
+            Pushing Data to Database
+            Changing from array to database
+        Querying from Database
+    }
+    NodeJS and React (Middleware) {
+        What is NodeJS in web development
+        What is React in web development
+        Relation between frontend and backend
+        MiddleWare
+        Client Side Rendering
+        Server Side Rendering
+        Fetch()
+        Rendering from a database
+            Building Backend
+                Res.json()
+            Configuring MiddleWare
+                Proxy Server
+            Configuring Frontend
+                Sample React App
+                    Configure
+                Class Form
+                Why we need to use States
+                    Storing information as a class
+                Async Functions
+                    What is an async function
+                Using Fetch()
+                    Get Requests
+            POST Requests
+                Fetch() with POST
+                Const options = {}
+                Handling Forms
+                    States
+    }
+    React Native (App Development) {
+        What is React Native
+        Why is it in this Web Development Course
+        What is React Native used For
+            Why do so many people use it
+        First App
+            File Structure
+            App.js
+                Similarities to React
+                Styling
+                    Instead of File Styling
+                    Style object
+                    Setting Styes
+            How to Run Code
+                Running on Emulator
+                    Android Studio
+                Running on Real Device
+                    Expo App
+            React Native Components
+                View
+                Text
+                Button
+            React Hooks
+                Use State
+            Creating App
+                Using Text 
+                Using State
+                Functions
+                Button 
+                    OnPress
+                    Title
+                    Self Closing Component
+                Styling
+            Creating Counter
+                Cleaning App.js
+                Using State
+                Creating Text that displays counter
+                Functions
+                    Set Incrementing
+                    Set Decrementing
+                Buttons
+                    OnPress
+                Console.Log
+                    Where does the log render
+            Goal Setter App
+                Structure of Project
+                    Input and Button
+                    List of Goals
+                Creating Input Button Component
+                    Layout
+                        Modal
+                        View
+                        Text Input
+                        Buttons
+                        Button View
+                    Using Props to Change State
+                        Setting State for the Entered Goal
+                        When Button Clicked add this state to another state with array
+                        Conditionally Rendering Modal
+                Display List of Goals
+                    Map()   
+                    Unique Identifier
+                    Flat List
+                        No Scroll View
+                Deleting Goals
+                    Touch Input
+                    Delete Goal Handler
+            Guessing Game
+    }
+    TypeScript {
+        What is Typescript
+        How does typescript work
+        How does the typescript compiler work
+            TypeScript → ES5 JavaScript
+        Hello World in TypeScript
+            Installing Compiler
+            File Extension (.ts)
+            Running TypeScript Code
+        Types
+            Type Declaration
+            TypeScript differences
+                Types and Declaration
+                Changing Types
+                How to change types in TypeScript
+            All Fundamental Types
+                Number
+                Integer
+                Float
+                String
+                Boolean
+                Any
+                Number[]
+                Any[]
+            Enums
+                What is an enum
+                JavaScript Form
+                Benefit of TypeScript
+        Type Assertion
+            Problem with Type: Any
+            Forcing a type
+                <Type>
+                (variable as Type)
+        Arrow Functions
+        Interfaces
+            drawPoint function
+            Passing in object with certain properties
+                Can pass in any property
+            Forcing Type
+            Forcing Interface
+                Creating Interface
+                Declaring and Forcing Interface
+        Classes
+            Basic Class → Interface
+            Function in class
+            Objects
+                Creating Instance of Class
+                Reaching to properties and function in class
+            Constructor
+                What is the constructor
+                Using Constructor
+                No Class Object Declaration
+                Making Constructors Optional
+            Access Modifier
+                Public 
+                Private
+                What happens while forcing access modifiers
+                Access Modifiers in Constructors
+                    Shorter Syntax
+            Properties
+                Getting and Setting
+                    Our Own functions
+                    Get Function
+                    Set Function
+                    Typescript Brain and Compiler
+    }
+    React With TypeScript {
+        Setting Up React to Compile TypeScript
+        File Structure
+            Things we can delete
+            TSX
+        App.tsx
+            Component Structure
+            Component Type
+                React.FC
+        Creating TextField Component
+            Setup
+            <input/>
+            Props
+                Passing In Props
+                Object
+                Interface
+            Forced Props
+                Types of Props
+                    String
+                    Boolean
+                    Number
+                    Functions
+                        Passing Information
+                        What it returns
+                            If nothing then void
+                    Objects
+                        Creating Interfaces
+                        Setting Interfaces
+                Making Props not mandatory
+                    ?: Type
+            Hooks
+                UseState
+                    Infers Type
+                    Forcing Type
+                    Multiple Types
+                UseRef
+                    What is useRef
+                        What is it used for
+                    Setting Certain Types
+            onChange of Text input
+                Correct Type in Props
+                    Console Log
+        Creating Counter
+            Passing Information Through Children Prop
+            Interface
+                Children is Function
+                    Take Count and SetCount
+                Using State to manage count
+        Render Props
+            Rendering Through App.tsx
+    }
+    Angular {
+        Hello World
+            Angular Setup
+            Ng serve 
+            File Structure
+                Index.html
+                App Folder
+                App.module.ts
+                    Module System
+                App.component.ts
+                App.component.html
+            Hello World Displayed
+        Difference Between React and Angular
+            React → Changes React Components into HTML
+            Angular → Creates HTML Components with Angular Components
+        Todo List
+            Must Have Outer Layer
+                <div>
+                <main>
+                <nav>
+                <footer>
+            Rendering Variables in Angular
+                App.Component
+                Angular Dynamic Rendering
+                    {{ }}   
+            Pipes
+                Uppercase
+                Lowercase
+            Adding TypeScript
+                Types
+            Constructor
+                Custom Methods
+            Creating New Component
+                Ng Generate Component “name of component”
+                New Files
+                    Exact Same as App
+                Todos.component.ts
+                    onInit
+                        The same as componentDidMount()
+                        Runs after everything loads
+                Rendering New Component
+            Creating Todo Class
+                Why TypeScript is so amazing
+                Using ngOnInit()
+                Importing into Todos.Component.ts
+            For Loops with Angular
+                ngFor
+                Using Todo Properties
+            Todo Item Components
+                Props with Angular
+                    Input from Angular
+                Rendering Props
+            CSS
+                Whole App Styling → styles.css
+            Adding Input and Delete Button
+                Custom Styling
+                Todo-Item.component.css
+                Setting Classes Dynamically
+                    If this.todo.completed is true then ‘is-completed’ is the class
+            Events
+                onChange
+                onClick
+                Functions in TypeScript
+            Services
+                Data in Services
+                Importing data into todo.component
+            Fetching to Backend
+                Adding Module
+                todosUrl
+                Get Requests
+                    Observable
+                    Subscribe()
+                Limiting the number of list items
+                    ?_limit 
+                Changing Server
+                    UI Changes are already done
+                    Server
+                    PUT Requests
+                    HTTP Options
+                    Unique URL
+                Deleting
+                    UI Changes
+                        Filtering Array
+                        Sending Request
+                            Delete Request
+            Header
+                Basic HTML
+                Basic CSS
+            Adding Todo
+                Creating Components
+                Creating Sample Form
+                    Linking Input to TypeScript Variable
+                    Importing
+                Adding to Webpage
+                Styling
+                Posting to Server
+        Routing
+            Creating a router
+            Replacing what is necessary
+                App.component.html
+            Add About Page
+            Creating Dom Route
+            Links
+                RouterLink
+        Building Project
+            Ng build
+            Dist Folder
+            What to do with this 
+                Web Hosting Services
+    }
+    Vue {
+        Vue.js chrome extension
+            Helpful to visualize the structure of components
+        Vue CLI
+            Vue GUI
+        File Structure
+            Index.html
+            Main.js
+            App.vue
+        HelloWorld.vue
+            What you can delete
+                What must stay
+            Style Scoping
+            Creating Hello World
+            Rendering Variables
+                Data function
+                {{ }}
+            Props
+                Initiating Props
+                Passing Props
+                Rendering Props
+        TodoList
+            Header
+            Add Todo
+            Todo List 
+                Todo Item
+                    Editing
+                    Deleting
+                Passing Parameters and Functions
+                    Parent → Child
+                    Child → Paren
+        Axios
+            Backend
+            Posting
+            Getting
+            Deleting
+        Views
+            About Page
+            Home Page
+        Routing
+            Router.js
+        Styling
+        }
+    }
+}
+
+App Development {
+    Android Studio {
+        Basic Introduction to Android Studio
+        Basic Kotlin
+            Variables
+                Fundamentals of variables and how to assign and set a variable
+                Type inference of Kotlin
+                How to set the  type of a variable
+                How to change the type of a variable
+                Mutability
+                Data Types
+                    Integers
+                    Strings
+                    Booleans
+                    Doubles
+                    Floats
+                    Longs
+                Strings
+                    Raw strings
+                    For loops in strings
+                    .contentEquals()
+                    .contain()
+                    toUpperCase()
+                    toLowerCase()
+                    subSequence()
+                Operations
+                    Addition
+                    Subtraction
+                    Multiplication
+                    Division
+                    Modulo
+            Creating Functions
+                Regular Functions
+                Functions with Parameters
+                    Default values
+                Returning function
+            Conditional Logic
+                If statements
+                    If statements with ints and values
+                    If statements with strings
+                    If and else statement
+                    If, else if, else statements
+                    Or and And in if statements
+                    Boolean logic in if statements
+                When statements
+            Collections and Arrays
+                Creating a immutable list
+                    Printing the list
+                    Sorting the list
+                    What are indexes
+                    Getting specific indexes of the list
+                    .contains function
+                Creating an mutable list
+                    .size function
+                    .add function
+                    Specific index
+                    .indexOf function
+                    .remove function
+                Maps
+                    Syntax
+                    .get
+                    .getOrDefault
+                Hashmaps
+                    Syntax
+                    Changing values
+                    Adding values
+                    Removing values
+                    Clearing values
+            Loops
+                For loops 
+                    Array list of
+                    HashMaps
+                While loops
+            Nullability
+                What is nullability
+                What is it used for
+                Errors it can cause
+                How to avoid errors
+                    Null Check
+                    Safe call operator
+                    Elvis Operator
+                    !!
+            Classes and Inferences
+                Intro to object oriented programming
+                Importance of OOP
+                Creating the class
+                Constructor functions
+                Using OOP 
+        Creating our First project: Tip Calculator
+            Activity_main.xml
+            Build Gradle Files
+            Layout
+                ID
+                Font Family
+                Font Size
+                    SP
+            Changing Background Color
+                If doesn’t work
+            How to use XML to change values
+            Adding Images to Android Studio
+            Adding Images to Android Studio Layout
+            Changing Size
+            Creating Constraints
+                Density Independence
+            Edit Texts
+            Buttons
+            Finish Layout
+        Programming
+            Getting input when button is clicked
+            Getting the values of Edit Texts
+            Calculating Tip
+            Outputting Result
+        A in depth look at Android Studio
+            The emulator
+        Random Number Generator
+            Layout: Do It Yourself
+            Programming
+                Introduction to the random function
+                How the random function uses Object Oriented Programming
+        Dinner Decider
+            Layout
+                Our Color Schemes
+                Importing images
+                Finish Layout
+            Programming
+                Button OnClickListener
+                Array of Food Items
+                Randomly generating the food item
+                Displaying the Food Item
+                Adding food to the list with the text field
+        Image Resource
+            How to change the image resource of an image field through code
+        Random Avatar Generator: Do It Yourself
+        Profile App (to teach Layout)
+            Creating a new project
+            Introduction to Android Studio Layout System
+            Working with Constraints
+                Design Window
+                What are constraints
+                How do they affect the app
+                How do margins affect the app
+                Types of Constraints
+                    Wrap Constraints: You can move and change the position of the element
+                    Fixed Constraints: You can’t change, the element will stretch to fit the fixed constraints
+                    Match Constraints: Expand to whatever space available
+                Auto Connect
+                Infer Constraints
+                XML: Go through some code
+                Image View
+                Chains and Alignment
+                Getting Rid of the action bar
+                Adding Image UI
+                Changing the Background
+            Grid View
+                Guidelines
+                Adding Images
+                Match Layout
+                Constraints
+            Making a rounded image
+            Scaling for different devices
+            Scaling for different positions of the phone
+        Swoosh (Activities) 
+            Setup of the basic welcome menu
+            Changing main menu
+            Setup of the second activity
+                Linear layouts 
+            Intents
+                Explicit
+                    Open another page in an app, activities
+                Implicit
+                    Open another app through our app
+            Activity Life Cycle
+                Re-watch lecture 49 and make notes
+            Life cycle in action
+                Creating a basic activity that will log what state each activity is in
+            Finish all layouts of all of the pages
+            Switching between activities
+            Passing information between activities
+            Parcable objects 
+        ToDo List
+            Building Layout
+            Building Basic Program to handle requests
+            Working with local databases 
+        Coders Swag
+            Creating the layout of the app
+                Category Class
+                Product Class
+                Singleton 
+                Object types instead of classes
+                Adding Static Data
+            Simple List View
+                Setting up the List View
+                What does the List View do
+                Setting up the Adapter
+                Default View
+                Title View
+            Our Own Layout
+                Setting up our own layout
+                Using the custom adapter
+                Problem with using List View
+            View Holders
+                Rewriting Code
+                Understanding what is happening behind the scenes
+            Recycler View
+                What is a recycler view
+                Gradle Implementations
+                Setting up RecyclerView Adapters
+                Modifying the Main Activity
+                Setting up RecyclerView OnClicks
+        Intro to different layouts
+            What the purpose of each one is
+        Projects
+            Calculator
+                Simple 4 function calculator
+            Profile Page
+                Explicit design
+                Layout and Design
+            Login UI
+                Nav Header
+                Login 
+                Sign up
+                Passing Information to main page
+            Any app you want to build 
+            Competition (Optional based on how many students there are)
+        }
+    }
+    Flutter {
+        What is Flutter
+        Why is it so helpful
+        Dart Programming
+            OOP
+            Similar to Java and JS
+        Basic Syntax Method
+            Built up of Widgets
+                Scaffold
+                    Can Hold several child widgets
+            Stateful vs Stateless Widgets
+        Setting Up VS Code Flutter
+            Installation
+            Extensions
+                Flutter
+                Dart
+        Setting Up Android Studio Code
+        First App
+            Flutter Setup
+            Opening On Emulator
+            Lib Folder
+                Main.dart
+            Dart DevTools
+            _counter display changes
+            Flutter Extension Helpfulness
+                Hot Reloading when saved
+                Hard Reload
+                Pause
+                Resume
+            Main.dart
+                Void Main()
+                    The main function that flutter looks at while running
+                RunApp() is a built in function
+                MyApp()
+                    Widget Build
+                        Renders whatever is inside of widget build
+                    Title
+                    Theme
+                    Home: MyHomePage
+                MyHomePage()
+                    Stateful Widget
+                    This widget has a property title
+                        This.title
+                _MyHomePage()
+                    _counter is a variable
+                    _incrementCounter is a function that just adds _counter by one every time it is called
+                    Widget Build
+                        Text
+                        floatingActionButton
+                            onPressed
+                            toolTip
+                            Child
+            File Structure
+                Idea Folder
+                    Configuration for Android Studio
+                Dart_tool
+                    Flutter Build Configuration
+                Android
+                    Builds Android Studio Project
+                    Everytime you change in Flutter, it changes in this code
+                Build
+                    Output of Flutter Application
+                IOS
+                    Build IOS Project
+                    Same Thing as Android Project
+                Lib
+                    Put All Of Code
+                    Put all code files
+                Tests
+                    Writing code to automate the testing process
+                Pubsec.yaml
+                    Package Manager
+                README.md
+                    Text Describing the Project
+            Widget Tree
+            Dart Fundamentals
+                Dart Pad
+                Void Main()
+                    Function
+                    Only Function that executes when dart code is running
+                    Hello World
+                Creating Function for Hello World
+                    What is void
+                    How to call functions
+                Functions with parameters
+                    Getting Parameters
+                    Adding
+                    Passing Parameters
+                Data Types
+                    Double
+                    Int
+                    Num
+                    String
+                Returning values from function
+                    Remove Void
+                    Function Type
+                    Return
+                Strings
+                    String Declaration
+                    String Addition
+                    String placement
+                Classes
+                    Properties
+                    Instance of Classes
+                    Changing Instances
+            Redoing Main.Dart
+                Creating void main()
+                Creating first flutter class
+                    Extending to Stateless Widget
+                    .build
+                        Function inside of class
+                        Context
+                        Build Context
+                        Returning Widget
+                            Returning MaterialApp
+                    Hello World
+                        Named Arguments
+                        Home
+                            Text Widget
+                    Constructor
+                        Getting Properties
+                        This.property
+                        Named Arguments
+                    @override
+                        Deliberately overriding build widget
+                    Void main shortened
+                    Scaffolds
+                        appBar
+                            Title
+                            Centering Title
+                        Body
+                Personality Quiz
+                    Basic Setup
+                    Main.dart
+                    Column
+                        List of Widgets
+                        Text
+                        RaisedButton
+                            Child
+                            onPressed
+                            Disabled
+                    answerQuestions function
+                        onPressed with no ()
+                        Inline Function
+                    Changing Something on screen with Button
+                        questionIndex
+                        Rendering Questions in the Array
+                        Why is the text not changing?
+                    Stateless vs Stateful
+                        Statelsess: Input Data → Widget → Renders UI
+                        Stateful: Input Data → Widget → Internal State → Renders UI
+                            If Input Data or Internal State changes, page rerenders
+                    Building Stateful Widget
+                        Changing to Stateful Widget
+                        setState()
+                        Making Properties Private
+                            Adding _ behind anything
+                                Classes
+                                Properties
+                                Functions
+                    Creating External Widgets
+                        Creating New Class and Widget
+                        Constructor for text displayed
+                        Importing question.dart
+                        Final String
+                    Styling
+                        Putting a outer widget than the text
+                        Full Width
+                        Aligning Items
+                        Widget catalog: https://flutter.dev/docs/development/ui/widgets
+                    Buttons and Answers
+                        Creating Answer Class
+                        Passing OnPress Function
+                        Constructor
+                        Function Type
+                        Margins
+                    Making Questions a HashMap
+                        Array of Objects
+                            Question Text
+                            Answers
+                                Array of Answers
+                            Getting values from HashMap
+                            Mapping out values for the answers
+                                Map function
+                                Spread Operator
+                    Proof Checking if we should keep adding the index
+                        If Statements
+                        Conditional Rendering
+                    Done Page
+                Wordpair Generator
+                    Setting up Hello World
+                    Packages
+                        Pub.dev
+                        English_words
+                    Generating Completely Random Words
+                        Instance of Class
+                        Random Function
+    }
+}
+
+Game Development {
+    Intro and Walk through Unity
+        Initial Setup
+        How to create a new project
+        Intro to game objects and how Unity Compiler thinks
+        Game Objects
+        Creating shapes and displaying it on screen
+        Creating prefabs
+        Creating a basic level
+        Intro to Tags and Layers
+        Colliders
+            Box Colliders
+            Polygon Colliders
+            Circle Colliders
+        Rigid bodies 
+        Intro to the Unity Manual
+    Intro to Programming
+        What are we building? A basic area where an object can move around
+            How to move a 2D object move around the screen
+            Importing images and making the game look better
+            Building the game
+        What are we building? A basic 2D platformer
+            Exercise: Try making the object move in the x axis only
+            Limiting the amount of jumps
+                How to use layers to our advantage
+            Setting up a level for the player to play
+            Cinemacine
+            Building the Game
+            Exercise: Add your own images and make a game that looks good and functions
+        Creating our first real game
+            What are we building? An actual platformer with a main menu, retry menu, and power-ups
+            Exercise: Create your own small platformer with a player that can move in the x axis and jump
+            Exercise: Make a list of power-ups that you want to implement in your game
+                Think about the impact, good or bad, on the player that the power-up has
+            Intro to colliders
+                Destroying objects
+            Creating the power-ups
+                Speed boost
+                Jump boost
+                Amount of Jumps boost
+            Exercise: Import your images and make the game look good
+            Building the game
+    More complex programming
+        What are we building? We are going to go back to the random space where there is no gravity the player can move randomly
+        Exercise: Create player that can move around the screen x and y through inputs and no jumping
+        Randomly spawning enemies
+        The enemies will follow the player
+            Get closer when player too far
+            Get further away when player too close
+            At just right the distance, the enemies will shoot at the player
+            Another type of enemy
+                Just a regular enemy that will follow the player
+        Creating a simple shooting mechanism
+        Destroying the enemies on contact with bullets
+        Finishing the game
+            Fixing bugs
+            Importing images and make game look good
+            Building and exporting the game
+    More complex UI
+        The important of a menu
+        Exercise: Recreate a basic menu layout with no code
+        Making effects with the menu
+        Where to get good color schemes
+        Exercise: Create your own unique menu
+        Project: Go back to one of the games that you liked and update your menu with code.
+    More Complex Code
+        What are we building? A simple AI that has vision and can see when the player is in the AI’s line of vision
+        Intro to RayCasting
+        Giving the AI vision
+        Making the game look good
+        Building and exporting the game
+        Game Application
+            Adding the AI to the platformer
+            Enabling and Disabling scripts through script
+            Enabling and Disabling objects through script
+    Particle Effects
+        How to create particle effects
+        How to use particle effects
+        How to trigger particle effects
+    Animations
+        How to create animations
+        Triggering animations
+        Animator window
+        Uses of animations
+    Putting it all together
+        Project: You should create a basic platformer with the player being able to move and jump. There should be enemies that will only follow the player if the player is in a certain distance within the enemy. That enemy should have a base state that includes the enemy performing a basic and static action. There should be another state or area in the game where there is no gravity and the player can move with no jump constraints. There, there should be at least 2 types of enemies. One of those enemies must follow the player, stop at a certain distance, and move back to stay away from the player. Also, this enemy should be able to shoot at the player. The project should include at least a few particle effects and animations
+    Neural Networks and Machine Learning in Game Development
+        Both the types of Machine Learning
+            Brain
+            Population
+        How does a Neuron work in a neural networks
+        The math and logic behind the perceptron
+        Or function perceptron
+        Creating real applications of Machine Learning in Games
+            Ping Pong bot
+            Natural Selection Model
+            Flappy Bird Bot
+            Dodging Ball
+}

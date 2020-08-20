@@ -1,0 +1,32 @@
+@keyframes slidy {
+    0% {left: 0%;}
+    6.25% {left: 0%;}
+    12.5% {left: -20.8%;}
+    18.75% {left: -20.8;}
+    25% {left: -41.6%;}
+    31.25% {left: -41.6%;}
+    37.5% {left: -62.4%;}
+    43.75% {left: -62.4%;}
+    50% {left: -83.2%}
+    56.25% {left: -83.2%;}
+    62.5% {left: -104%;}
+    68.75% {left: -104%;}
+    75% {left: -124.8%;}
+    81.25% {left: -124.8%;}
+    87.5% {left: -145.6%;}
+    93.75% {left: -145.6%;}
+    95% {left: -200%;}
+    100% {left: -200%;}
+}
+
+div#slider { overflow: hidden; }
+div#slider figure img { width: 5%; float: left; border-radius: 8px; margin: 5px; }
+div#slider figure { 
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    font-size: 0;
+    animation: 30s slidy infinite; 
+}
