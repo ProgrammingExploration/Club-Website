@@ -20,7 +20,7 @@ import VSCode from '../../../../../Images/Vs-Code.png'
 const SlideShow = () => {
     return (
         <div>
-            <h1>SlideShow</h1>
+            <h1>Tools</h1>
             <div id="slider">
             <figure>
             <img src={AndroidStudio} alt />
