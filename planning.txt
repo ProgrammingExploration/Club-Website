@@ -1762,19 +1762,129 @@ Game Development {
         How to create a new project
         Intro to game objects and how Unity Compiler thinks
         Game Objects
-        Creating shapes and displaying it on screen
+            Transform
+            Adding Components
+            Moving Through Interface
+                Keybinds
+                Tools
+                    Hand
+                    Directions
+                    Rotation
+                    Scaling 
+                    Full Scaling
+                    Everything Combined
+                    Special Tools
+        Creating shapes and displaying it on screens
+            Creating directly in Hierarchy
+            Creating in Project Tab
+                Sprites Folder
+                Right Click
+                Sprites
+                    Square
+                    Triangle
+                    Circle
+                Drag and Drop
+                    If dragged to hierarchy, the object will automatically get (0,0,0) for the position
+                    If dragged to the game view position will be wherever you drag it to
+        Changing Properties
+            Position
+                Move the square through interface
+                Through x, y, and z values
+            Changing Color
+            Renaming
         Creating prefabs
+            Dragging from hierarchy to project
+            Use of prefab
+                Storing a game object to reuse
+        Creating a complex game object
+            What is a complex game object
+                A game object that stores other game objects inside of it
+            Creating basic game object
+            Drag and Drop All squares on top of the game object
+            What is the advantage now
+                Example: If you are trying to create a level with several game objects in it, you could move the whole level and all of the game objects in it very easily
         Creating a basic level
+            Creating Folder
+            Creating Sprite (Square)
+                Putting square on game
+                Renaming
+            Creating Platforms
+                Prefab Saved
+                Reusing
+                Platforms (Complex Game Object)
+            Colliders
+                Box Colliders
+                Polygon Colliders
+                Circle Colliders
+                isTrigger
+            Rigid bodies 
+                Dynamic
+                Kinematic
+                Static
+            Making the game semi-functional
+                Add Rigidbody and Box Collider to Player
+                    Add Component
+                Add Box Colliders to Platforms
+                Running Game
+                Problems
+                    The square rotates when impacted on a corner
+                        Preventing rotation in rigidbody
+                        Constraints
+                            Freeze z axis
         Intro to Tags and Layers
-        Colliders
-            Box Colliders
-            Polygon Colliders
-            Circle Colliders
-        Rigid bodies 
-        Intro to the Unity Manual
+            What are tags used for
+                Collision Detection
+                Getting Objects in Code
+            What are layers used for
+                Positioning in the z axis
+                Adding another background sprite
+                    Notice that the player sprite always moves under this background sprite
+            Using layers to fix this issue
+                Order in Layer
+                    Order in layer is a very effective but hard to manage method of layers
+                    You assign objects what order in layer and unity will compare all order in layers and see what the z axis placement is
+                    Player order in layer should be 3 compared to the background sprite with order in layer as 0
+                Intro to the Unity Manual
+                    https://docs.unity3d.com/Manual/index.html
     Intro to Programming
+        Download Visual Studio Code 2019
+            https://visualstudio.microsoft.com/downloads/
         What are we building? A basic area where an object can move around
-            How to move a 2D object move around the screen
+            Creating Player
+                RigidBody
+                    Kinematic
+                Box Collider
+                Adding Our Script
+                    Creating Script
+                    Opening Script in Visual Studio Code
+            Script
+                Already made Code
+                    Using
+                        Import Statements
+                Class Movement
+                    The colon is telling unity that this is a unity class
+                    Always write code in this class and the curly braces inside of it
+                Functions
+                    Start()
+                        Runs at the beginning of the game or when scene loads
+                        Runs only once
+                    Update()
+                        Runs once every second
+            Declaring Public and Private Variables
+                Difference between public and private
+                    Public → Displayed on Unity Editor
+                    Private → Displayed only in script
+                Public Speed Variable
+            Using Update()
+                Any Movement goes in update()
+                Vectors
+                    Vector2 → 2D Vector
+                    Vector3 → 3D Vector
+                The transform position is a 3D Vector
+                    Creating a 3D Vector for transform.position
+                        Three Parameters
+                        Input.getAxis()
+                            Input.GetAxisRaw()
             Importing images and making the game look better
             Building the game
         What are we building? A basic 2D platformer
@@ -1782,22 +1892,86 @@ Game Development {
             Limiting the amount of jumps
                 How to use layers to our advantage
             Setting up a level for the player to play
+                Player
+                    Box Collider
+                    Rigid Body
+                Platforms
+                    Box Collider
+            Script
+                How to get components in the script
+                    GetComponent
+                        Rigidbody
+                What are we trying to code
+                    Basic Movement
+                    A jumping mechanic
+                        Create a small invisible circle near the player’s feet to check when the player is touch the ground
+                        You can only jump if touch the floor and if you have an jumps left
+                        Everytime you touch the floor your jumps resets
+                Basic Movement
+                    Rb.velocity 
+                    Input.GetAxisRaw()
+                Jumping
+                    jumpForce
+                    Boolean of isGrounded
+                    A Position where the players feet is
+                        Put a game object under the player at its feet that will follow the player
+                    How big the circle is
+                    What do we want to consider ground
+                        Layers
+                        Putting ground layer on all platforms
+                    Only allow jumping if met all conditions
             Cinemacine
+                Installing Cinemachine to the game
+                Adding it
+                Setting our player as the object to follow
             Building the Game
             Exercise: Add your own images and make a game that looks good and functions
-        Creating our first real game
-            What are we building? An actual platformer with a main menu, retry menu, and power-ups
-            Exercise: Create your own small platformer with a player that can move in the x axis and jump
-            Exercise: Make a list of power-ups that you want to implement in your game
-                Think about the impact, good or bad, on the player that the power-up has
-            Intro to colliders
-                Destroying objects
-            Creating the power-ups
-                Speed boost
-                Jump boost
-                Amount of Jumps boost
-            Exercise: Import your images and make the game look good
-            Building the game
+    Creating our first real game
+        What are we building? An actual platformer with a main menu, retry menu, and power-ups
+        Exercise: Create your own small platformer with a player that can move in the x axis and jump
+        Exercise: Make a list of power-ups that you want to implement in your game
+            Think about the impact, good or bad, on the player that the power-up has
+        Intro to colliders
+            Destroying objects
+        Creating the power-ups
+            Speed boost
+            Jump boost
+            Amount of Jumps boost
+        Exercise: Import your images and make the game look good
+        Building the game
+    Enemy Generation
+        Creating Object For Spawning
+        Providing the enemy to be spawned
+            Creating a random x and y and setting those to a vector
+            Instantiating an object in update()
+    Collision Detection
+        Setting up two squares
+            One with rigidbody and box collider
+            Other with only box collider
+        Making Basic Movement
+        onCollisionEnter2D()
+            This function will return something every time the game object collides with anything
+            Using Collision.gameObject.compareTag
+    Making a following enemy
+        Getting The Player’s position in another game object script
+        Vector2.MoveTowards
+        Destroying the player if the player makes contact with the enemy
+            Since there is only one enemy we can just destroy if the player collides with anything
+    Working with multiple scenes
+        Making a menu and game scene
+        Making a basic game scene
+            Adding a canvas
+            Adding a panel
+            Adding a button
+        Same Thing with Menu Scene
+        Panel Script
+            Public Functions
+            Import Unity Scene Management
+            SceneManager.LoadScene()
+            Build Settings
+                Putting Scenes into the build settings
+        Adding OnClick events to the button
+    Working with UI
     More complex programming
         What are we building? We are going to go back to the random space where there is no gravity the player can move randomly
         Exercise: Create player that can move around the screen x and y through inputs and no jumping
@@ -1815,17 +1989,23 @@ Game Development {
             Importing images and make game look good
             Building and exporting the game
     More complex UI
-        The important of a menu
         Exercise: Recreate a basic menu layout with no code
         Making effects with the menu
+            Hovering Effects
         Where to get good color schemes
         Exercise: Create your own unique menu
         Project: Go back to one of the games that you liked and update your menu with code.
+    Advanced Enemy AI 
+        Stopping, Retreating, MoveTowards
+            Checking Distance with Vector2.Distance()
+        Shooting
+            Projectile Prefab
+                Projectile gets player position at the frame
+                Fires to that position
     More Complex Code
         What are we building? A simple AI that has vision and can see when the player is in the AI’s line of vision
         Intro to RayCasting
         Giving the AI vision
-        Making the game look good
         Building and exporting the game
         Game Application
             Adding the AI to the platformer
@@ -1854,4 +2034,5 @@ Game Development {
             Natural Selection Model
             Flappy Bird Bot
             Dodging Ball
+
 }
