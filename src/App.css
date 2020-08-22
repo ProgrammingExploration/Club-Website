@@ -226,3 +226,26 @@ div#slider figure {
         display: grid;
     }
 }
+
+.aboutme {
+  justify-content: center;
+}
+
+.aboutme p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 10%;
+}
+
+.emails h2 {
+  color: #eeeeee;
+}
+
+.emails a {
+  color: #12cad6;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.emails a, .github a, .personal a {
+  font-size: 20px;
+}
