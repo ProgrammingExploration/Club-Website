@@ -238,10 +238,20 @@ div#slider figure {
   justify-content: center;
 }
 
+.aboutclub p, .toolinfo p {
+  font-size: 20px;
+  line-height: 1.4;
+  margin-top: 5%;
+}
+
+.toolinfo h1 {
+  color: #393e46;
+}
+
 .aboutme p {
   font-size: 20px;
   line-height: 1.4;
-  margin-top: 10%;
+  margin-top: 5%;
 }
 
 .emails h2 {
@@ -266,4 +276,8 @@ div#slider figure {
 .tools-slides h1 {
   padding: 10px;
   font-size: 50px;
+}
+
+@media all and (max-width: 1146px) {
+
 }
