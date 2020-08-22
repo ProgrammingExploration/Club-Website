@@ -1,6 +1,7 @@
 /* Background Color */
 body {
     background: #1b262c;
+    min-width: 510px;
 }
 
 /* Header */
@@ -119,7 +120,6 @@ main div {
     color: #eeeeee;
 }
 
-/* Slideshow */
 .slideshow {
     background-color: #00adb5;
     grid-row: 3/4;
@@ -238,8 +238,13 @@ div#slider figure {
   justify-content: center;
 }
 
-.aboutclub p, .toolinfo p {
+.toolinfo p {
   font-size: 20px;
+  line-height: 1.4;
+}
+
+.aboutclub p {
+  font-size: 18px;
   line-height: 1.4;
   margin-top: 5%;
 }
@@ -278,6 +283,42 @@ div#slider figure {
   font-size: 50px;
 }
 
-@media all and (max-width: 1146px) {
+@media all and (max-width: 1527px) {
+  main {
+    height: 250vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+  .about-club {
+      grid-row: 3/6;
+      grid-column: 1/3;
+  }
 
+  .slideshow {
+      grid-row: 6/7;
+      grid-column: 1/3;
+  }
+  .tools {
+      grid-row: 1/3;
+      grid-column: 1/3;
+  }
+
+  .tools p {
+    font-size: 16px;
+  }
+
+  .aboutclub p {
+    font-size: 20px;
+  }
+}
+
+@media all and (max-width: 732px) {
+  .tools p {
+    font-size: 12px;
+  }
+
+  .aboutclub p {
+    font-size: 16px;
+  }
 }
