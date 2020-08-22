@@ -256,3 +256,14 @@ div#slider figure {
 .emails a, .github a, .personal a {
   font-size: 20px;
 }
+
+.tools-slides {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.tools-slides h1 {
+  padding: 10px;
+  font-size: 50px;
+}

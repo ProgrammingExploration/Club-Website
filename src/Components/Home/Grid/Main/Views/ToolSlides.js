@@ -18,7 +18,7 @@ import VSCode from '../../../../../Images/Vs-Code.png'
 
 const SlideShow = () => {
     return (
-        <div className="div">
+        <div className="tools-slides">
             <h1>Tools</h1>
             <div id="slider">
             <figure>
