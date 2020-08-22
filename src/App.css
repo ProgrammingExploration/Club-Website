@@ -1,7 +1,9 @@
+/* Background Color */
 body {
     background: #1b262c;
 }
 
+/* Header */
 * {
     margin:0;
     padding:0;
@@ -93,6 +95,7 @@ body {
     content:"Close"
   }
   
+  /* Main Grid Boxes */
   main {
     background: #e5e5e5;
     border-radius: 8px;
@@ -115,6 +118,8 @@ main div {
     grid-column: 1/2;
     color: #eeeeee;
 }
+
+/* Slideshow */
 .slideshow {
     background-color: #00adb5;
     grid-row: 3/4;
@@ -134,6 +139,7 @@ a {
     color: #222831;
 }
 
+/* SlideShow Animation */
 @keyframes slidy {
     0% {left: 0%;}
     6.25% {left: 0%;}
@@ -167,6 +173,7 @@ div#slider figure {
     animation: 30s slidy infinite; 
 }
 
+/* Bottom Grid Styling */
 .main {
     background: #12cad6;
     border-radius: 8px;
