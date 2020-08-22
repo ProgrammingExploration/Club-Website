@@ -241,6 +241,7 @@ div#slider figure {
 .toolinfo p {
   font-size: 20px;
   line-height: 1.4;
+  margin-top: 5%;
 }
 
 .aboutclub p {
@@ -306,6 +307,7 @@ div#slider figure {
 
   .tools p {
     font-size: 16px;
+    margin-top: 0%;
   }
 
   .aboutclub p {
