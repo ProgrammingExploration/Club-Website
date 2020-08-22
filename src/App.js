@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Header from './Components/Header/Header';
 import {
   BrowserRouter as Router,
   Switch,
@@ -18,6 +19,9 @@ import Python from './Components/Courses/Python/Python';
 function App() {
   return (
     <Router>
+      <div>
+        <Header/>
+      </div>
       <Switch>
         <Route exact path="/">
           <Home/>
