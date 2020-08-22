@@ -1,5 +1,4 @@
 import React, { useState } from 'react'
-import '../../../Styles/Home/Header/Header.css'
 import Navigation from './Navigation'
 
 const Header = () => {

@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../../../Styles/Home/Grid/Main/Views/ToolSlide.css'
 import AndroidStudio from '../../../../../Images/Android-Studio.jpg'
 import CSharp from '../../../../../Images/C#.jpg'
 import CSS from '../../../../../Images/CSS.jpg'

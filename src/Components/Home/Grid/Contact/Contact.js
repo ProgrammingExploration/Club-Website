@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../../../Styles/Home/Grid/Contact/Contact.css'
 import AboutMe from './Views/AboutMe'
 import Github from './Views/Github'
 import PersonalWebsite from './Views/PersonalWebsite'

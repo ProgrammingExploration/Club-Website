@@ -723,7 +723,7 @@ Web Development {
         Making Sticky Nav Bar
             Responsiveness
     }
-    Vanilla JS {
+    Basic JS {
         Variables
             Const
             Var
@@ -2034,5 +2034,4 @@ Game Development {
             Natural Selection Model
             Flappy Bird Bot
             Dodging Ball
-
 }

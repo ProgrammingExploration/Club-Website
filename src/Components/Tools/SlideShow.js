@@ -1,5 +1,4 @@
 import React from 'react'
-import '../../Styles/Tools/Slides.css'
 
 const SlideShow = () => {
     return (
